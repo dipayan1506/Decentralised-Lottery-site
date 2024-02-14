@@ -3,11 +3,11 @@ import {ethers} from 'ethers';
 import constants from './constants';
 import { abi } from "./abi";
 
-// const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 const CONTRACT_ADDRESS = "0x968fCEAFF26c6907A7112c587BD36C888A02003E";
 
 
 function Winner() {
+    
     const [owner, setOwner] = useState('');
     const [ contract, setcontract] = useState('');
 
