@@ -92,7 +92,7 @@ function Winner() {
             <div className='button-container'>
                  {status ? (<p>Lottery Winner is : {winner}</p>) : 
                  ( isOwnerConnected ? (<button className="enter-button" onClick={pickWinner}> Pick Winner </button>) : 
-                 (<p>You are not the owner</p>))
+                 (<p>You are not the Owner</p>))
 
                  }
             </div>
