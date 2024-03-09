@@ -106,7 +106,7 @@ function Home() {
             <div className="button-container">
             {connected ? (
                     status ? (isWinner ? (<button className="enter-button" onClick={claimPrize}>Claim Prize</button>) :
-                        (<p>You are not the winner</p>)) :
+                        (<p>You are not the Winner</p>)) :
                         (<button className="enter-button" onClick={enterLottery}>Enter Lottery</button>)
                 ) : (
                     <button className="enter-button" onClick={connectWallet}>Connect Wallet</button>
